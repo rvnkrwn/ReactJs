@@ -1,4 +1,4 @@
-git clone
+git clone https://github.com/rvnkrwn/ReactJs.git
 
-cd ReactJs
+cd ReactJs<br>
 npm install
