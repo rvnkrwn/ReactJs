@@ -1,0 +1,78 @@
+// {type:usecase}
+// {direction:leftToRight}
+// {generate:true}
+
+[Customer]-(Register)
+[Customer]-(Login)
+[Customer]-(Logout)
+[Customer]-(Browse Products)
+[Customer]-(Search Products)
+[Customer]-(Add to Cart)
+[Customer]-(Remove from Cart)
+[Customer]-(View Cart)
+[Customer]-(Place Order)
+[Customer]-(View Orders)
+[Customer]-(Track Order)
+[Customer]-(Cancel Order)
+
+[Admin]-(Login)
+[Admin]-(Logout)
+[Admin]-(Manage Products)
+[Admin]-(Add Product)
+[Admin]-(Edit Product)
+[Admin]-(Delete Product)
+[Admin]-(Manage Orders)
+[Admin]-(View Orders)
+[Admin]-(Update Order Status)
+[Admin]-(Manage Customers)
+[Admin]-(View Customers)
+[Admin]-(Delete Customer)
+
+[Courier]-(Login)
+[Courier]-(Logout)
+[Courier]-(View Assigned Deliveries)
+[Courier]-(Update Delivery Status)
+[Courier]-(View Delivery Details)
+[Courier]-(Generate Delivery Report)
+
+[Customer]-(Register)
+[Customer]-(Login)
+[Customer]-(Logout)
+[Customer]-(Browse Products)
+[Customer]-(Search Products)
+[Customer]-(Add to Cart)
+[Customer]-(Remove from Cart)
+[Customer]-(View Cart)
+[Customer]-(Place Order)
+[Customer]-(View Orders)
+[Customer]-(Track Order)
+[Customer]-(Cancel Order)
+
+[Register]-(Enter Personal Details)
+[Register]-(Provide Login Credentials)
+[Login]-(Enter Credentials)
+[Logout]
+[Browse Products]
+[Search Products]-(Enter Search Query)
+[Add to Cart]
+[Remove from Cart]
+[View Cart]
+[Place Order]
+[View Orders]
+[Track Order]
+[Cancel Order]
+[Manage Products]
+[Add Product]
+[Edit Product]
+[Delete Product]
+[Manage Orders]
+[View Orders]
+[Update Order Status]
+[Manage Customers]
+[View Customers]
+[Delete Customer]
+[View Assigned Deliveries]
+[Update Delivery Status]
+[View Delivery Details]
+[Generate Delivery Report]
+
